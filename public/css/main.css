@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin:  0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #F4F4F4;
+}
+img {
+	width: 100%;
+}
+/* Header */
+.header {
+	border-bottom: 1px solid #E1E1E1;
+	background: #FFFFFF;
+	width: 100%;
+}
+.header__container {
+	padding: 0.5rem 1rem;'
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	overflow: hidden;
+}
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo {
+	width: 120px;
+}
+.header__direct {
+	color: #000;
+}
+
+/* Stories */
+.stories {
+	margin-top: 1rem;
+}
+.stories__container {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 1rem;
+	overflow: hidden;
+	margin:  0 auto;
+}
+.stories__content {
+	display: flex;
+}
+.stories__user {
+	width: 68px;
+	height: 68px;
+	margin-right: 0.5rem;
+}
+.stories__user img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+/* Posts */
+.posts__container {
+	width: 100%;
+	max-width: 600px;
+	padding: 1rem;
+	margin:  0 auto;
+}
+.posts__content {
+	display: flex;
+	flex-direction: column;
+}
+.post {
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 2rem;
+}
+.post__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+.post i {
+	cursor:  pointer;
+}
+.post__user {
+	display: flex;
+	align-items: center;
+}
+.post__user__image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+.post__user__name {
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+.post__control {
+	padding: 0.8rem 1rem;
+	width: 100%;
+}
+.post__control i:nth-child(1) {
+	margin-right: 1.5rem;
+}
+.post__control i:nth-child(3) {
+	margin-left: auto;
+	margin-right:  0.5rem;
+}
+.post__status {
+	display: flex;
+	padding: 0 0.25rem;
+	align-items: center;
+	background: #F2F2F2;
+	height: 45px;
+}
+.post__status__photo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+.post__status__likes {
+	font-size: 0.8rem;
+}
+.post__status__likes--bold {
+	font-weight: bold;
+}
